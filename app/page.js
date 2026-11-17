@@ -7,8 +7,6 @@ import ImpactStats from "@/components/ImpactStats";
 import productCategories from "@/data/products";
 import { shippingContainers } from "@/data/images";
 
-const whatsappUrl = "https://wa.me/923005310821?text=Hello%20Ajrak%20Impex%2C%20I%27d%20like%20to%20start%20my%20trade%20journey.";
-
 const paths = [
   {
     title: "Trade With Us",

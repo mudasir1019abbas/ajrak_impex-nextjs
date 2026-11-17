@@ -3,15 +3,15 @@ import { AuthProvider } from "@/context/AuthContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ||
-  (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000");
+// const siteUrl =
+//   process.env.NEXT_PUBLIC_SITE_URL ||
+//   (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : "http://localhost:3000");
 
 const description =
   "A Karachi-based import-export company helping young professionals start, invest, and grow in global trade. No experience needed.";
 
 export const metadata = {
-  metadataBase: new URL(siteUrl),
+  // metadataBase: new URL(siteUrl),
   title: {
     default: "Ajrak Impex International | Import, Invest & Grow with Global Trade",
     template: "%s | Ajrak Impex International",
